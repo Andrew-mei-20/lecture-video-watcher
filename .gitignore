@@ -1,0 +1,27 @@
+# Python environments and generated artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration, analysis outputs, and model files
+.env
+.env.*
+!.env.example
+output/
+outputs/
+*.log
+*.gguf
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
